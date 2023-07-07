@@ -13,7 +13,7 @@ import 'package:random_string/random_string.dart';
 import 'src/base_web_auth.dart';
 import 'src/web_auth.dart'
 // ignore: uri_does_not_exist
-    if (dart.library.io) 'src/io_web_auth.dart'
+    if (dart.library.io) 'src/webview_auth.dart'
 // ignore: uri_does_not_exist
     if (dart.library.html) 'src/browser_web_auth.dart';
 
